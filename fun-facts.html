@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Did You Know? Fun Facts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        nav button {
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        nav button:hover {
+            background-color: #4caf50;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        h2 {
+            text-align: center;
+            color: #4caf50;
+        }
+
+        .fact {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-left: 5px solid #4caf50;
+        }
+
+        .quiz {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #eaf7ea;
+            border: 1px solid #4caf50;
+            border-radius: 5px;
+        }
+
+        .quiz-question {
+            font-weight: bold;
+        }
+
+        .quiz-options button {
+            display: block;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .quiz-options button:hover {
+            background-color: #45a049;
+        }
+
+        .quiz-feedback {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Did You Know? Fun Facts for Everyone!</h1>
+        <nav>
+            <button onclick="openTab('animals')">Animals</button>
+            <button onclick="openTab('science')">Science</button>
+            <button onclick="openTab('history')">History</button>
+            <button onclick="openTab('pop-culture')">Pop Culture</button>
+            <button onclick="openTab('food')">Food</button>
+            <button onclick="openTab('phobias')">Phobias</button>
+            <button onclick="openTab('quiz')">Quiz</button>
+        </nav>
+    </header>
+
+    <div id="animals" class="tab-content">
+        <h2>Animals</h2>
+        <div id="animals-facts" class="facts-container"></div>
+    </div>
+
+    <div id="science" class="tab-content">
+        <h2>Science</h2>
+        <div id="science-facts" class="facts-container"></div>
+    </div>
+
+    <div id="history" class="tab-content">
+        <h2>History</h2>
+        <div id="history-facts" class="facts-container"></div>
+    </div>
+
+    <div id="pop-culture" class="tab-content">
+        <h2>Pop Culture</h2>
+        <div id="pop-culture-facts" class="facts-container"></div>
+    </div>
+
+    <div id="food" class="tab-content">
+        <h2>Food</h2>
+        <div id="food-facts" class="facts-container"></div>
+    </div>
+
+    <div id="phobias" class="tab-content">
+        <h2>Phobias</h2>
+        <div id="phobias-facts" class="facts-container"></div>
+    </div>
+
+    <div id="quiz" class="tab-content">
+        <h2>Quiz</h2>
+        <div class="quiz" id="quiz-container">
+            <div class="quiz-question" id="quiz-question"></div>
+            <div class="quiz-options" id="quiz-options"></div>
+            <div class="quiz-feedback" id="quiz-feedback"></div>
+        </div>
+    </div>
+
+    <script>
+        const facts = {
+            animals: [
+                "A group of flamingos is called a 'flamboyance'.",
+                "Octopuses have three hearts, and two of them stop beating when they swim."
+            ],
+            science: [
+                "Water can boil and freeze at the same time. It’s called the triple point.",
+                "There are more stars in the universe than grains of sand on Earth."
+            ],
+            history: [
+                "Napoleon was once attacked by a horde of bunnies.",
+                "Cleopatra lived closer in time to the moon landing than to the construction of the Great Pyramid."
+            ],
+            'pop-culture': [
+                "The voice of Mickey Mouse and the voice of Minnie Mouse got married in real life.",
+                "The first video ever uploaded to YouTube was about elephants."
+            ],
+            food: [
+                "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are still edible.",
+                "Bananas are berries, but strawberries aren’t."
+            ],
+            phobias: [
+                "Arachibutyrophobia is the fear of peanut butter sticking to the roof of your mouth.",
+                "Nomophobia is the fear of being without your mobile phone."
+            ]
+        };
+
+        const quizData = [
+            // Animal facts
+            {
+                question: "Translate this phrase: 'A group of flamingos is called a flamboyance.'",
+                options: ["Un groupe de flamants s'appelle une flamboyance.", "Un groupe de flamants est appelé une flotte.", "Un groupe de flamants est nommé une colonie."],
+                correct: "Un groupe de flamants s'appelle une flamboyance."
+            },
+            {
+                question: "Why is the present tense used in this sentence: 'A group of flamingos is called a flamboyance.'?",
+                options: ["It describes a general truth.", "It refers to an action in progress.", "It describes a future event."],
+                correct: "It describes a general truth."
+            },
+            {
+                question: "What is the correct phonetic pronunciation of 'flamboyance'?",
+                options: ["/flæmˈbɔɪ.əns/", "/flæmˈbɔɪˌəns/", "/flæm.bɔɪˈəns/"],
+                correct: "/flæmˈbɔɪ.əns/"
+            },
+
+            // Science facts
+            {
+                question: "Translate this phrase: 'Water can boil and freeze at the same time.'",
+                options: ["L'eau peut bouillir et geler en même temps.", "L'eau peut chauffer et refroidir instantanément.", "L'eau peut se congeler en chauffant."],
+                correct: "L'eau peut bouillir et geler en même temps."
+            },
+            {
+                question: "What is the scientific term for water boiling and freezing at the same time?",
+                options: ["Triple point", "Boiling equilibrium", "Phase transition"],
+                correct: "Triple point"
+            },
+            {
+                question: "Why is the modal verb 'can' used in this sentence: 'Water can boil and freeze at the same time.'?",
+                options: ["It shows possibility.", "It shows permission.", "It shows necessity."],
+                correct: "It shows possibility."
+            },
+
+// History facts
+{
+    question: "Translate this phrase: 'Napoleon was once attacked by a horde of bunnies.'",
+    options: ["Napoléon a été attaqué par une horde de lapins.", "Napoléon a été mordu par des lapins.", "Napoléon a fui devant des lapins."],
+    correct: "Napoléon a été attaqué par une horde de lapins."
+},
+{
+    question: "Why is the past tense used in 'Napoleon was once attacked by a horde of bunnies.'?",
+    options: ["It describes a completed action.", "It describes a habit in the past.", "It refers to an ongoing action."],
+    correct: "It describes a completed action."
+},
+{
+    question: "What is the correct phonetic pronunciation of 'Napoleon'?",
+    options: ["/nəˈpəʊ.li.ən/", "/nəˈpoʊ.li.ən/", "/nəˈpɒ.li.ən/"],
+    correct: "/nəˈpəʊ.li.ən/"
+},
+
+// Pop Culture facts
+{
+    question: "Translate this phrase: 'The voice of Mickey Mouse and the voice of Minnie Mouse got married in real life.'",
+    options: ["Les voix de Mickey et Minnie Mouse se sont mariées dans la vraie vie.", "Les acteurs de Mickey et Minnie se sont fiancés.", "Les personnages de Mickey et Minnie se sont mariés."],
+    correct: "Les voix de Mickey et Minnie Mouse se sont mariées dans la vraie vie."
+},
+{
+    question: "Why is the past tense used in 'The voice of Mickey Mouse and Minnie Mouse got married'?",
+    options: ["It describes a completed event in the past.", "It describes an ongoing action.", "It refers to a planned action."],
+    correct: "It describes a completed event in the past."
+},
+{
+    question: "What is the correct phonetic pronunciation of 'Minnie'?",
+    options: ["/ˈmɪn.i/", "/ˈmiː.ni/", "/ˈmɪ.nə/"],
+    correct: "/ˈmɪn.i/"
+}
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function openTab(category) {
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            const selectedTab = document.getElementById(category);
+            selectedTab.classList.add('active');
+
+            if (category !== 'quiz') {
+                const factsContainer = document.getElementById(`${category}-facts`);
+                if (!factsContainer.hasChildNodes()) {
+                    facts[category].forEach(fact => {
+                        const factDiv = document.createElement('div');
+                        factDiv.className = 'fact';
+                        factDiv.textContent = fact;
+                        factsContainer.appendChild(factDiv);
+                    });
+                }
+            } else {
+                loadQuizQuestion();
+            }
+        }
+
+        function loadQuizQuestion() {
+            const questionContainer = document.getElementById('quiz-question');
+            const optionsContainer = document.getElementById('quiz-options');
+            const feedbackContainer = document.getElementById('quiz-feedback');
+
+            feedbackContainer.textContent = '';
+
+            if (currentQuestionIndex < quizData.length) {
+                const currentQuestion = quizData[currentQuestionIndex];
+                questionContainer.textContent = currentQuestion.question;
+                optionsContainer.innerHTML = '';
+
+                currentQuestion.options.forEach(option => {
+                    const button = document.createElement('button');
+                    button.textContent = option;
+                    button.onclick = () => checkAnswer(button, currentQuestion.correct);
+                    optionsContainer.appendChild(button);
+                });
+            } else {
+                questionContainer.textContent = `Quiz Complete! Your score is ${score}/${quizData.length}.`;
+                optionsContainer.innerHTML = '';
+            }
+        }
+
+        function checkAnswer(button, correctAnswer) {
+            const feedbackContainer = document.getElementById('quiz-feedback');
+
+            if (button.textContent === correctAnswer) {
+                feedbackContainer.textContent = "Correct!";
+                feedbackContainer.style.color = "green";
+                score++;
+            } else {
+                feedbackContainer.textContent = `Incorrect. The correct answer is: ${correctAnswer}`;
+                feedbackContainer.style.color = "red";
+            }
+
+            currentQuestionIndex++;
+            setTimeout(loadQuizQuestion, 2000);
+        }
+
+        // Open the first tab by default
+        openTab('animals');
+    </script>
+</body>
+</html>

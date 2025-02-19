@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Did You Know? Fun Facts</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Lottie Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+</head>
+<body>
+    <!-- Welcome Page -->
+    <div id="welcome-page" class="welcome-container fade-in">
+        <h1 class="animated-text">🌟 Welcome! Today, we are all going to learn something new. 🌟</h1>
+        <p class="intro-text">We hope you have as much fun discovering these facts as we had putting them together.</p>
+
+        <!-- Lottie Animation -->
+        <div id="lottie-animation" class="lottie-animation"></div>
+
+        <p class="intro-text">This project was crafted as part of an English assignment, and we truly enjoyed making it.</p>
+        <p class="intro-text">Learning is a journey, and we invite you to explore fascinating facts while having fun with our interactive quiz! 🎉</p>
+
+        <!-- Animated Button -->
+        <button onclick="startJourney()" class="start-button bounce">🚀 Start the Journey</button>
+    </div>
+
+    <!-- Fun Facts Page (Initially Hidden) -->
+    <div id="funfacts-page" class="hidden fade-in">
+        <header>
+            <h1 class="animated-text">Did You Know? Fun Facts for Everyone! 📚✨</h1>
+            <nav>
+                <button onclick="openTab('animals')" class="tab-button">🐾 Animals</button>
+                <button onclick="openTab('science')" class="tab-button">🔬 Science</button>
+                <button onclick="openTab('history')" class="tab-button">🏛️ History</button>
+                <button onclick="openTab('pop-culture')" class="tab-button">🎬 Pop Culture</button>
+                <button onclick="openTab('food')" class="tab-button">🍕 Food</button>
+                <button onclick="openTab('phobias')" class="tab-button">😱 Phobias</button>
+                <button onclick="openTab('quiz')" class="tab-button">🧠 Quiz</button>
+            </nav>
+        </header>
+
+        <!-- Tabs -->
+        <div id="animals" class="tab-content fade-in">
+            <h2>🐾 Amazing Animal Facts</h2>
+            <div id="animals-facts" class="facts-container"></div>
+        </div>
+
+        <div id="science" class="tab-content fade-in">
+            <h2>🔬 Science Wonders</h2>
+            <div id="science-facts" class="facts-container"></div>
+        </div>
+
+        <div id="history" class="tab-content fade-in">
+            <h2>🏛️ Fascinating History</h2>
+            <div id="history-facts" class="facts-container"></div>
+        </div>
+
+        <div id="pop-culture" class="tab-content fade-in">
+            <h2>🎬 Pop Culture Fun</h2>
+            <div id="pop-culture-facts" class="facts-container"></div>
+        </div>
+
+        <div id="food" class="tab-content fade-in">
+            <h2>🍕 Delicious Food Facts</h2>
+            <div id="food-facts" class="facts-container"></div>
+        </div>
+
+        <div id="phobias" class="tab-content fade-in">
+            <h2>😱 Unusual Phobias</h2>
+            <div id="phobias-facts" class="facts-container"></div>
+        </div>
+
+        <div id="quiz" class="tab-content fade-in">
+            <h2>🧠 Test Your Knowledge!</h2>
+            <div class="quiz" id="quiz-container">
+                <div class="quiz-question" id="quiz-question"></div>
+                <div class="quiz-options" id="quiz-options"></div>
+                <div class="quiz-feedback" id="quiz-feedback"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

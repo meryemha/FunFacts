@@ -1,0 +1,1188 @@
+[
+    {
+        "fact": "Napoleon was once attacked by a horde of bunnies.",
+        "question": "Translate this sentence into French: Napoleon was once attacked by a horde of bunnies.",
+        "options": [
+            "Napol\u00e9on a fui devant des lapins.",
+            "Napol\u00e9on a \u00e9t\u00e9 attaqu\u00e9 par une horde de lapins.",
+            "Napol\u00e9on a \u00e9t\u00e9 mordu par des lapins."
+        ],
+        "correct": "Napol\u00e9on a \u00e9t\u00e9 attaqu\u00e9 par une horde de lapins."
+    },
+    {
+        "fact": "Octopuses have three hearts, and two stop beating when they swim.",
+        "question": "How do you say 'Octopuses have three hearts' in French?",
+        "options": [
+            
+            "Les calmars ont trois c\u0153urs.",
+            "Les poulpes ont deux c\u0153urs.",
+            "Les pieuvres ont trois c\u0153urs."
+        ],
+        "correct": "Les pieuvres ont trois c\u0153urs."
+    },
+    {
+        "fact": "Bananas are berries, but strawberries aren't.",
+        "question": "Which of these words is a synonym for 'berry'?",
+        "options": [
+            "Fruit",
+            "Vegetable",
+            "Leaf"
+        ],
+        "correct": "Fruit"
+    },
+    {
+        "fact": "Honey never spoils; it has been found in ancient Egyptian tombs still edible.",
+        "question": "What is the grammatical tense of 'Honey never spoils'?",
+        "options": [
+            "Present simple",
+            "Past simple",
+            "Future perfect"
+        ],
+        "correct": "Present simple"
+    },
+    {
+        "fact": "Cleopatra lived closer in time to the moon landing than to the Great Pyramid's construction.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": [
+            
+            "Time",
+            "Construction",
+            "Cleopatra"
+        ],
+        "correct": "Cleopatra"
+    },
+    {
+        "fact": "Wombat poop is cube-shaped to prevent it from rolling away.",
+        "question": "Which part of speech is the word 'cube-shaped'?",
+        "options": [
+            "Adjective",
+            "Noun",
+            "Verb"
+        ],
+        "correct": "Adjective"
+    },
+    {
+        "fact": "Sharks existed before trees.",
+        "question": "What is the past tense of 'exist'?",
+        "options": [
+            
+            "Exist",
+            "Existed",
+            "Existing"
+        ],
+        "correct": "Existed"
+    },
+    {
+        "fact": "There are more stars in the universe than grains of sand on Earth.",
+        "question": "What is the comparative form of 'many'?",
+        "options": [
+            
+            "Most",
+            "More",
+            "Much"
+        ],
+        "correct": "More"
+    },
+    {
+        "fact": "Water can boil and freeze at the same time. This is called the triple point.",
+        "question": "What is the grammatical subject in the sentence 'Water can boil and freeze at the same time'?",
+        "options": [
+            
+            "Boil",
+            "Water",
+            "Freeze"
+        ],
+        "correct": "Water"
+    },
+    {
+        "fact": "The Eiffel Tower can be 15 cm taller during the summer.",
+        "question": "What is the correct verb tense in 'The Eiffel Tower can be 15 cm taller during the summer'?",
+        "options": [
+            
+            "Future simple",
+            "Past simple",
+            "Present simple"
+        ],
+        "correct": "Present simple"
+    },
+    {
+        "fact": "Sloths can hold their breath longer than dolphins.",
+        "question": "Which word in this sentence is a modal verb?",
+        "options": [
+            
+            "Hold",
+            "Longer",
+            "Can"
+        ],
+        "correct": "Can"
+    },
+    {
+        "fact": "Butterflies taste with their feet.",
+        "question": "Which part of speech is the word 'taste' in this sentence?",
+        "options": [
+            "Verb",
+            "Noun",
+            "Adjective"
+        ],
+        "correct": "Verb"
+    },
+    {
+        "fact": "The inventor of the frisbee was turned into a frisbee after he died.",
+        "question": "What is the passive form of 'The inventor of the frisbee was turned into a frisbee'?",
+        "options": [
+            "The frisbee turned the inventor into itself.",
+            "The inventor turned himself into a frisbee.",
+            "A frisbee was made from the inventor's remains."
+        ],
+        "correct": "A frisbee was made from the inventor's remains."
+    },
+    {
+        "fact": "Some cats are allergic to humans.",
+        "question": "What is the plural form of 'cat'?",
+        "options": [
+            
+            "Cates",
+            "Catis",
+            "Cats"
+        ],
+        "correct": "Cats"
+    },
+    {
+        "fact": "A day on Venus is longer than a year on Venus.",
+        "question": "What is the superlative form of 'long'?",
+        "options": [
+            "Longest",
+            "Longer",
+            "Most long"
+        ],
+        "correct": "Longest"
+    },
+    {
+        "fact": "A shrimp\u2019s heart is located in its head.",
+        "question": "Which word in this sentence is a possessive noun?",
+        "options": [
+            
+            "Heart",
+            "Shrimp\u2019s",
+            "Head"
+        ],
+        "correct": "Shrimp\u2019s"
+    },
+    {
+        "fact": "Dolphins have names for each other.",
+        "question": "What is the correct synonym for 'names' in this sentence?",
+        "options": [
+            
+            "Calls",
+            "Identifiers",
+            "Sounds"
+        ],
+        "correct": "Identifiers"
+    },
+    {
+        "fact": "The shortest war in history lasted 38 minutes.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": [
+            "Shortest",
+            "War",
+            "Minutes"
+        ],
+        "correct": "Shortest"
+    },
+    {
+        "fact": "Tomatoes are fruit, but legally they are considered vegetables in the US.",
+        "question": "What is the opposite of 'legally'?",
+        "options": [
+            "Illegally",
+            "Legitimately",
+            "Formally"
+        ],
+        "correct": "Illegally"
+    },
+    {
+        "fact": "A cloud can weigh more than a million pounds.",
+        "question": "What is the plural form of 'cloud'?",
+        "options": [
+            
+            "Cloudies",
+            "Clouds",
+            "Cloudes"
+        ],
+        "correct": "Clouds"
+    },
+    {
+        "fact": "The human nose can detect over 1 trillion different scents.",
+        "question": "Which word in this sentence is a number?",
+        "options": [
+            
+            "Different",
+            "Detect",
+            "1 trillion"
+        ],
+        "correct": "1 trillion"
+    },
+    {
+        "fact": "There is a species of jellyfish that is immortal.",
+        "question": "What is the antonym of 'immortal'?",
+        "options": [
+            
+            "Everlasting",
+            "Eternal",
+            "Mortal"
+        ],
+        "correct": "Mortal"
+    },
+    {
+        "fact": "A blue whale\u2019s heart is the size of a small car.",
+        "question": "What is the correct possessive form of 'blue whale'?",
+        "options": [
+            "Blue whale\u2019s",
+            "Blue whales'",
+            "Blue whale"
+        ],
+        "correct": "Blue whale\u2019s"
+    },
+    {
+        "fact": "Some turtles can breathe through their butts.",
+        "question": "What is the verb in this sentence?",
+        "options": [
+            
+            "Turtles",
+            "Breathe",
+            "Through"
+        ],
+        "correct": "Breathe"
+    },
+    {
+        "fact": "A day on Mars is 24 hours and 39 minutes long.",
+        "question": "What is the comparative form of 'long'?",
+        "options": [
+            
+            "Longest",
+            "Longer",
+            "More long"
+        ],
+        "correct": "Longer"
+    },
+    {
+        "fact": "Cows have best friends and get stressed when they are separated.",
+        "question": "Which word in this sentence is a compound noun?",
+        "options": [
+            
+            "Stressed",
+            "Separated",
+            "Best friends"
+        ],
+        "correct": "Best friends"
+    },
+    {
+        "fact": "Penguins propose to their mates by giving them a pebble.",
+        "question": "What is the plural form of 'penguin'?",
+        "options": [
+            
+            "Penguines",
+            "Penguini",
+            "Penguins"
+        ],
+        "correct": "Penguins"
+    },
+    {
+        "fact": "The speed of a sneeze can exceed 100 miles per hour.",
+        "question": "What is the correct verb tense in 'The speed of a sneeze can exceed 100 miles per hour'?",
+        "options": [
+            "Present simple",
+            "Past simple",
+            "Future simple"
+        ],
+        "correct": "Present simple"
+    },
+    {
+        "fact": "Worms can regrow parts of their bodies if cut in half.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [
+            "Regrow",
+            "Parts",
+            "Bodies"
+        ],
+        "correct": "Regrow"
+    },
+    {
+        "fact": "Goldfish can recognize human faces.",
+        "question": "What is the plural form of 'goldfish'?",
+        "options": [
+            
+            "Goldfishes",
+            "Goldfishs",
+            "Goldfish"
+        ],
+        "correct": "Goldfish"
+    },
+    {
+        "fact": "The longest recorded flight of a chicken is 13 seconds.",
+        "question": "Which word in this sentence is a superlative?",
+        "options": [
+            
+            "Recorded",
+            "Longest",
+            "Flight"
+        ],
+        "correct": "Longest"
+    },
+    {
+        "fact": "A group of crows is called a 'murder'.",
+        "question": "What is the collective noun in this sentence?",
+        "options": [
+            "Murder",
+            "Crows",
+            "Group"
+        ],
+        "correct": "Murder"
+    },
+    {
+        "fact": "A single strand of spaghetti is called a 'spaghetto'.",
+        "question": "What is the singular form of 'spaghetti'?",
+        "options": [
+            
+            "Spaghet",
+            "Spaghetto",
+            "Spaghett"
+        ],
+        "correct": "Spaghetto"
+    },
+    {
+        "fact": "Dolphins sleep with one eye open.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [
+            "Sleep",
+            "Eye",
+            "Open"
+        ],
+        "correct": "Sleep"
+    },
+    {
+        "fact": "Jellyfish are 95% water.",
+        "question": "Which part of speech is '95%' in this sentence?",
+        "options": [
+            
+            "Adjective",
+            "Number",
+            "Noun"
+        ],
+        "correct": "Number"
+    },
+    {
+        "fact": "It rains diamonds on Jupiter and Saturn.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": [
+            
+            "Diamonds",
+            "Rains",
+            "Jupiter"
+        ],
+        "correct": "Jupiter"
+    },
+    {
+        "fact": "The heart of a blue whale is as big as a small car.",
+        "question": "What is the comparative form of 'big'?",
+        "options": [
+
+            "Biggest",
+            "More big",
+            "Bigger"
+        ],
+        "correct": "Bigger"
+    },
+    {
+        "fact": "Humans share about 60% of their DNA with bananas.",
+        "question": "Which word in this sentence is a percentage?",
+        "options": [
+            "60%",
+            "Bananas",
+            "Share"
+        ],
+        "correct": "60%"
+    },
+    {
+        "fact": "A bolt of lightning is five times hotter than the surface of the sun.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": [
+            
+            "Lightning",
+            "Hotter",
+            "Surface"
+        ],
+        "correct": "Hotter"
+    },
+    {
+        "fact": "An octopus has nine brains and blue blood.",
+        "question": "What is the correct plural form of 'octopus'?",
+        "options": [
+            "Octopuses",
+            "Octopi",
+            "Octopodes"
+        ],
+        "correct": "Octopuses"
+    },
+    {
+        "fact": "The world's largest desert is actually Antarctica.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": [
+            
+            "Desert",
+            "Largest",
+            "Antarctica"
+        ],
+        "correct": "Antarctica"
+    },
+    {
+        "fact": "Some frogs can freeze solid in winter and thaw back to life in spring.",
+        "question": "What is the opposite of 'freeze' in this sentence?",
+        "options": [
+            
+            "Melt",
+            "Thaw",
+            "Boil"
+        ],
+        "correct": "Thaw"
+    },
+    {
+        "fact": "A snail can sleep for three years at a time.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [
+            
+            "Three",
+            "Sleep",
+            "Snail"
+        ],
+        "correct": "Sleep"
+    },
+    {
+        "fact": "The human body contains about 37.2 trillion cells.",
+        "question": "Which word in this sentence is a number?",
+        "options": [
+            "37.2 trillion",
+            "Human",
+            "Contains"
+        ],
+        "correct": "37.2 trillion"
+    },
+    {
+        "fact": "Giraffes have the same number of neck vertebrae as humans.",
+        "question": "What is the singular form of 'vertebrae'?",
+        "options": [
+            
+            "Vertebrae",
+            "Vertebras",
+            "Vertebra"
+        ],
+        "correct": "Vertebra"
+    },
+    {
+        "fact": "There is no sound in space because there is no air.",
+        "question": "What is the synonym of 'sound' in this sentence?",
+        "options": [
+            
+            "Echo",
+            "Voice",
+            "Noise"
+        ],
+        "correct": "Noise"
+    },
+    {
+        "fact": "The heart beats about 100,000 times a day.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [
+            "Beats",
+            "Heart",
+            "Times"
+        ],
+        "correct": "Beats"
+    },
+    {
+        "fact": "There are more trees on Earth than stars in the Milky Way galaxy.",
+        "question": "Which word in this sentence is a comparative adjective?",
+        "options": [
+            
+            "Than",
+            "More",
+            "Stars"
+        ],
+        "correct": "More"
+    },
+    {
+        "fact": "The inventor of the lightbulb, Thomas Edison, was afraid of the dark.",
+        "question": "What is the past tense of 'is' in this sentence?",
+        "options": [
+            "Was",
+            "Were",
+            "Ised"
+        ],
+        "correct": "Was"
+    },
+    {
+        "fact": "A group of flamingos is called a 'flamboyance'.",
+        "question": "What is the collective noun in this sentence?",
+        "options": ["Flamboyance", "Group", "Flamingos"],
+        "correct": "Flamboyance"
+    },
+    {
+        "fact": "Tigers have striped skin, not just striped fur.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": ["Striped", "Tigers", "Skin"],
+        "correct": "Striped"
+    },
+    {
+        "fact": "A single teaspoon of honey represents the life’s work of 12 bees.",
+        "question": "Which word in this sentence is a noun?",
+        "options": ["Teaspoon", "Represents", "Work"],
+        "correct": "Teaspoon"
+    },
+    {
+        "fact": "The speed of a sneeze can reach up to 100 mph.",
+        "question": "Which unit of measurement is used in this sentence?",
+        "options": ["Mph", "Speed", "Reach"],
+        "correct": "Mph"
+    },
+    {
+        "fact": "Gorillas can catch human colds and other illnesses.",
+        "question": "What is the plural form of 'gorilla'?",
+        "options": ["Gorillaz", "Gorillaa", "Gorillas"],
+        "correct": "Gorillas"
+    },
+    {
+        "fact": "The shortest commercial flight lasts only 57 seconds.",
+        "question": "Which word in this sentence is a superlative adjective?",
+        "options": ["Shortest", "Commercial", "Flight"],
+        "correct": "Shortest"
+    },
+    {
+        "fact": "A hummingbird's heart can beat up to 1,200 times per minute.",
+        "question": "What is the possessive form in this sentence?",
+        "options": ["Hummingbird's", "Heart", "Times"],
+        "correct": "Hummingbird's"
+    },
+    {
+        "fact": "Some jellyfish are biologically immortal.",
+        "question": "What is the synonym of 'immortal'?",
+        "options": ["Everlasting", "Mortal", "Temporary"],
+        "correct": "Everlasting"
+    },
+    {
+        "fact": "The word 'alphabet' comes from the first two letters of the Greek alphabet: alpha and beta.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["Greek", "Alphabet", "Letters"],
+        "correct": "Greek"
+    },
+    {
+        "fact": "Elephants are the only animals that can't jump.",
+        "question": "Which word in this sentence is a contraction?",
+        "options": ["Can't", "Animals", "Only"],
+        "correct": "Can't"
+    },
+    {
+        "fact": "Snakes can sense earthquakes days before they happen.",
+        "question": "What is the plural form of 'snake'?",
+        "options": ["Snakes", "Snakess", "Snakees"],
+        "correct": "Snakes"
+    },
+    {
+        "fact": "Camels have three eyelids to protect their eyes from sand.",
+        "question": "Which word in this sentence is a noun?",
+        "options": ["Eyelids", "Protect", "Three"],
+        "correct": "Eyelids"
+    },
+    {
+        "fact": "A chameleon's tongue is twice the length of its body.",
+        "question": "What is the plural form of 'chameleon'?",
+        "options": ["Chameleons", "Chameleones", "Chameleonis"],
+        "correct": "Chameleons"
+    },
+    {
+        "fact": "The human brain generates enough electricity to power a small light bulb.",
+        "question": "Which word in this sentence is a noun?",
+        "options": ["Brain", "Generates", "Enough"],
+        "correct": "Brain"
+    },
+    {
+        "fact": "The heaviest pumpkin ever recorded weighed over 2,700 pounds.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": ["Heaviest", "Recorded", "Pumpkin"],
+        "correct": "Heaviest"
+    }, 
+    {
+        "fact": "A single cloud can weigh over a million pounds.",
+        "question": "What is the singular form of 'clouds'?",
+        "options": [ "Clouds", "Cloud", "Cloudes"],
+        "correct": "Cloud"
+    },
+    {
+        "fact": "Bananas are naturally radioactive.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": ["Bananas", "Naturally", "Radioactive"],
+        "correct": "Radioactive"
+    },
+    {
+        "fact": "Octopuses have copper-based blood, which gives it a blue color.",
+        "question": "What is the plural form of 'octopus'?",
+        "options": [ "Octopuss", "Octopodes", "Octopuses"],
+        "correct": "Octopuses"
+    },
+    {
+        "fact": "Venus is the hottest planet in the solar system, even though Mercury is closer to the Sun.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["Venus", "Planet", "System"],
+        "correct": "Venus"
+    },
+    {
+        "fact": "The longest hiccuping spree lasted 68 years.",
+        "question": "Which word in this sentence is a verb?",
+        "options": ["Lasted", "Hiccuping", "Years"],
+        "correct": "Lasted"
+    },
+    {
+        "fact": "Honeybees can recognize human faces.",
+        "question": "Which word in this sentence is a noun?",
+        "options": [ "Recognize","Honeybees", "Faces"],
+        "correct": "Honeybees"
+    },
+    {
+        "fact": "Sharks existed before trees.",
+        "question": "What is the past tense of 'exist'?",
+        "options": ["Existed", "Exist", "Existing"],
+        "correct": "Existed"
+    },
+    {
+        "fact": "A bolt of lightning is five times hotter than the surface of the sun.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": [ "Lightning", "Surface","Hotter"],
+        "correct": "Hotter"
+    },
+    {
+        "fact": "There are more stars in the universe than grains of sand on all the Earth's beaches.",
+        "question": "What is the comparative form of 'many'?",
+        "options": ["Most", "More", "Much"],
+        "correct": "More"
+    },
+    {
+        "fact": "Some turtles can breathe through their butts.",
+        "question": "What is the verb in this sentence?",
+        "options": [ "Turtles", "Breathe","Through"],
+        "correct": "Breathe"
+    },
+    {
+        "fact": "The shortest war in history lasted only 38 minutes.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": [ "War", "Minutes", "Shortest"],
+        "correct": "Shortest"
+    },
+    {
+        "fact": "The heart of a blue whale is as big as a small car.",
+        "question": "What is the comparative form of 'big'?",
+        "options": [ "Biggest", "More big", "Bigger"],
+        "correct": "Bigger"
+    },
+    {
+        "fact": "The Eiffel Tower can be 15 cm taller in the summer due to heat expansion.",
+        "question": "What is the correct verb tense in this sentence?",
+        "options": [ "Past simple", "Future simple", "Present simple"],
+        "correct": "Present simple"
+    },
+    {
+        "fact": "Giraffes only need 5 to 30 minutes of sleep per day.",
+        "question": "Which word in this sentence is a number?",
+        "options": ["5", "Giraffes", "Sleep"],
+        "correct": "5"
+    },
+    {
+        "fact": "The human eye can distinguish about 10 million different colors.",
+        "question": "Which word in this sentence is a number?",
+        "options": [ "Eye", "10 million", "Colors"],
+        "correct": "10 million"
+    },
+    {
+        "fact": "It is impossible to hum while holding your nose.",
+        "question": "What is the verb in this sentence?",
+        "options": [ "Impossible", "Hum", "Holding"],
+        "correct": "Hum"
+    },
+    {
+        "fact": "Some fish communicate by making noises with their swim bladders.",
+        "question": "What is the plural form of 'fish'?",
+        "options": ["Fish", "Fishes", "Fishs"],
+        "correct": "Fish"
+    },
+    {
+        "fact": "Pineapples take about two years to grow.",
+        "question": "Which word in this sentence is a noun?",
+        "options": [ "Grow", "Pineapples", "Years"],
+        "correct": "Pineapples"
+    },
+    {
+        "fact": "Sloths can hold their breath longer than dolphins.",
+        "question": "Which word in this sentence is a modal verb?",
+        "options": [ "Hold", "Can", "Longer"],
+        "correct": "Can"
+    },
+    {
+        "fact": "The word 'karaoke' means 'empty orchestra' in Japanese.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["Japanese", "Orchestra", "Empty"],
+        "correct": "Japanese"
+    },
+    {
+        "fact": "The world's largest snowflake was 15 inches wide.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": [ "Snowflake", "Wide", "Largest"],
+        "correct": "Largest"
+    },
+    {
+        "fact": "A day on Uranus lasts 17 hours and 14 minutes.",
+        "question": "What is the proper noun in this sentence?",
+        "options": ["Uranus", "Day", "Hours"],
+        "correct": "Uranus"
+    },
+    {
+        "fact": "The first oranges weren’t actually orange.",
+        "question": "What is the past tense of 'are' in this sentence?",
+        "options": [ "Was", "Weren’t", "Be"],
+        "correct": "Weren’t"
+    },
+    {
+        "fact": "There are more fake flamingos in the world than real ones.",
+        "question": "What is the comparative form of 'many'?",
+        "options": [ "Most", "Much", "More"],
+        "correct": "More"
+    },
+    {
+        "fact": "The inventor of the Rubik's Cube took one month to solve his own puzzle.",
+        "question": "Which word in this sentence is a possessive noun?",
+        "options": [ "Inventor", "Rubik's", "Puzzle"],
+        "correct": "Rubik's"
+    },
+    {
+        "fact": "Water makes up about 60% of the human body.",
+        "question": "Which word in this sentence is a number?",
+        "options": ["60%", "Water", "Body"],
+        "correct": "60%"
+    },
+    {
+        "fact": "Kangaroos can't walk backwards.",
+        "question": "Which word in this sentence is a contraction?",
+        "options": [ "Walk", "Backwards", "Can't"],
+        "correct": "Can't"
+    },
+    {
+        "fact": "A shrimp's heart is in its head.",
+        "question": "Which word in this sentence is a possessive noun?",
+        "options": ["Shrimp's", "Heart", "Head"],
+        "correct": "Shrimp's"
+    },
+    {
+        "fact": "The dot over the letter 'i' is called a tittle.",
+        "question": "What is the plural form of 'tittle'?",
+        "options": [ "Titles", "Tittles","Totals"],
+        "correct": "Tittles"
+    },
+    {
+        "fact": "A group of porcupines is called a prickle.",
+        "question": "What is the collective noun in this sentence?",
+        "options": ["Prickle", "Group", "Porcupines"],
+        "correct": "Prickle"
+    },
+    {
+        "fact": "Cows have best friends and get stressed when separated.",
+        "question": "Which word in this sentence is a compound noun?",
+        "options": ["Stressed", "Best friends", "Separated"],
+        "correct": "Best friends"
+    },
+    {
+        "fact": "A day on Mercury is longer than a year on Mercury.",
+        "question": "What is the superlative form of 'long'?",
+        "options": [ "Longer", "Most long", "Longest"],
+        "correct": "Longest"
+    },
+    {
+        "fact": "A group of owls is called a parliament.",
+        "question": "What is the collective noun in this sentence?",
+        "options": ["Parliament", "Group", "Owls"],
+        "correct": "Parliament"
+    },
+    {
+        "fact": "A blue whale's tongue weighs as much as an elephant.",
+        "question": "Which word in this sentence is a possessive noun?",
+        "options": [ "Tongue","Whale's", "Elephant"],
+        "correct": "Whale's"
+    },
+    {
+        "fact": "The moon has moonquakes just like Earth has earthquakes.",
+        "question": "What is the plural form of 'moonquake'?",
+        "options": ["Moonquakes", "Moonquakies", "Moonquaki"],
+        "correct": "Moonquakes"
+    },
+    {
+        "fact": "Bats are the only mammals that can fly.",
+        "question": "What is the verb in this sentence?",
+        "options": ["Can", "Fly", "Mammals"],
+        "correct": "Fly"
+    },
+    {
+        "fact": "Giant pandas spend up to 14 hours a day eating bamboo.",
+        "question": "Which word in this sentence is a number?",
+        "options": [ "Pandas", "Bamboo", "14"],
+        "correct": "14"
+    },
+    {
+        "fact": "A raindrop falls at about 20 miles per hour.",
+        "question": "Which unit of measurement is used in this sentence?",
+        "options": ["Miles per hour", "Falls", "Raindrop"],
+        "correct": "Miles per hour"
+    },
+    {
+        "fact": "The Eiffel Tower can sway up to 6 inches in the wind.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [ "Tower", "Sway","Wind"],
+        "correct": "Sway"
+    },
+    {
+        "fact": "A baby octopus is about the size of a flea when it's born.",
+        "question": "Which word in this sentence is a comparison?",
+        "options": ["Size", "About", "Of a flea"],
+        "correct": "Of a flea"
+    },
+    {
+        "fact": "The first email was sent by Ray Tomlinson to himself in 1971.",
+        "question": "What is the past tense of 'send'?",
+        "options": ["Sent", "Sended", "Sending"],
+        "correct": "Sent"
+    },
+    {
+        "fact": "The Great Wall of China is over 13,000 miles long.",
+        "question": "What is the comparative form of 'long'?",
+        "options": ["Longer", "Longest", "More long"],
+        "correct": "Longer"
+    },
+    {
+        "fact": "Some turtles can live for over 150 years.",
+        "question": "Which word in this sentence is a number?",
+        "options": ["150", "Turtles", "Live"],
+        "correct": "150"
+    },
+    {
+        "fact": "Mount Everest grows by about 4 millimeters each year.",
+        "question": "Which unit of measurement is used in this sentence?",
+        "options": ["Millimeters", "Year", "Grow"],
+        "correct": "Millimeters"
+    },
+    {
+        "fact": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+        "question": "Which word in this sentence is a superlative adjective?",
+        "options": ["Largest", "Ocean", "Earth"],
+        "correct": "Largest"
+    },
+    {
+        "fact": "Humans and giraffes have the same number of neck vertebrae.",
+        "question": "What is the singular form of 'vertebrae'?",
+        "options": ["Vertebrae", "Vertebras", "Vertebra"],
+        "correct": "Vertebra"
+    },
+    {
+        "fact": "Lightning strikes Earth about 100 times per second.",
+        "question": "Which word in this sentence is a number?",
+        "options": ["100", "Lightning", "Strikes"],
+        "correct": "100"
+    },
+    {
+        "fact": "The Statue of Liberty was a gift from France to the United States.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["Statue", "Liberty", "France"],
+        "correct": "France"
+    },
+    {
+        "fact": "A group of owls is called a parliament.",
+        "question": "What is the collective noun in this sentence?",
+        "options": ["Parliament", "Group", "Owls"],
+        "correct": "Parliament"
+    },
+    {
+        "fact": "An octopus has three hearts.",
+        "question": "What is the plural form of 'octopus'?",
+        "options": ["Octopuses", "Octopi", "Octopodes"],
+        "correct": "Octopuses"
+    },
+    {
+        "fact": "Bats are the only mammals that can fly.",
+        "question": "What is the verb in this sentence?",
+        "options": ["Can", "Fly", "Mammals"],
+        "correct": "Fly"
+    },
+    {
+        "fact": "The moon has moonquakes just like Earth has earthquakes.",
+        "question": "What is the plural form of 'moonquake'?",
+        "options": ["Moonquakes", "Moonquakies", "Moonquaki"],
+        "correct": "Moonquakes"
+    },
+    {
+        "fact": "Goldfish have a memory span of about three months.",
+        "question": "Which word in this sentence is a number?",
+        "options": ["Three", "Goldfish", "Memory"],
+        "correct": "Three"
+    },
+    {
+        "fact": "Sharks have been around longer than trees.",
+        "question": "What is the past tense of 'have' in this sentence?",
+        "options": ["Had", "Having", "Haved"],
+        "correct": "Had"
+    },
+    {
+        "fact": "Penguins can drink salt water because they have a special gland.",
+        "question": "Which word in this sentence is a noun?",
+        "options": ["Gland", "Drink", "Special"],
+        "correct": "Gland"
+    },
+    {
+        "fact": "A crocodile cannot stick its tongue out.",
+        "question": "What is the subject in this sentence?",
+        "options": ["Crocodile", "Stick", "Tongue"],
+        "correct": "Crocodile"
+    },
+    {
+        "fact": "The Eiffel Tower was originally intended to be temporary.",
+        "question": "What is the verb in this sentence?",
+        "options": ["Originally", "Was", "Temporary"],
+        "correct": "Was"
+    },
+    {
+        "fact": "The human body has 206 bones.",
+        "question": "Which word in this sentence is a number?",
+        "options": ["206", "Bones", "Human"],
+        "correct": "206"
+    },
+    {
+        "fact": "The Amazon Rainforest produces 20% of the world's oxygen.",
+        "question": "Which word in this sentence is a percentage?",
+        "options": ["20%", "Amazon", "Oxygen"],
+        "correct": "20%"
+    },
+    {
+        "fact": "A cat’s whiskers are roughly as wide as its body.",
+        "question": "What is the possessive noun in this sentence?",
+        "options": [ "Whiskers", "Body", "Cat’s"],
+        "correct": "Cat’s"
+    },
+    {
+        "fact": "A blue whale's heart weighs as much as a small car.",
+        "question": "Which word in this sentence is a possessive noun?",
+        "options": ["Whale's", "Heart", "Car"],
+        "correct": "Whale's"
+    },
+    {
+        "fact": "Jellyfish have existed for over 500 million years.",
+        "question": "Which word in this sentence is a number?",
+        "options": [ "Jellyfish","500", "Existed"],
+        "correct": "500"
+    },
+    {
+        "fact": "Venus rotates in the opposite direction to most planets.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["Venus", "Rotates", "Planets"],
+        "correct": "Venus"
+    },
+    {
+        "fact": "An ostrich's eye is bigger than its brain.",
+        "question": "What is the superlative form of 'big'?",
+        "options": ["Bigger", "Biggest", "More big"],
+        "correct": "Biggest"
+    },
+    {
+        "fact": "Butterflies can taste with their feet.",
+        "question": "Which word in this sentence is a verb?",
+        "options": ["Taste", "Feet", "Butterflies"],
+        "correct": "Taste"
+    },
+    {
+        "fact": "A day on Pluto lasts 153 hours.",
+        "question": "What is the number in this sentence?",
+        "options": ["Pluto", "One hundred and fifty three", "Day"],
+        "correct": "One hundred and fifty three"
+    },
+    {
+        "fact": "Some fish can recognize human faces.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [ "Fish", "Faces", "Recognize"],
+        "correct": "Recognize"
+    },
+    {
+        "fact": "Cows have best friends and get stressed when separated.",
+        "question": "What is the opposite of separeted?",
+        "options": ["United", "Celebrated", "Engaged"],
+        "correct": "United"
+    },
+    {
+        "fact": "A shrimp’s heart is located in its head.",
+        "question": "What is the noun of located?",
+        "options": ["Local", "Location", "Locat"],
+        "correct": "Location"
+    },
+    {
+        "fact": "There are more trees on Earth than stars in the Milky Way.",
+        "question": "Which word in this sentence is a comparative adjective?",
+        "options": [ "Than", "More","Stars"],
+        "correct": "More"
+    },
+    {
+        "fact": "Bananas float in water because they are less dense than water.",
+        "question": "Which word in this sentence is a verb?",
+        "options": ["Float", "Water", "Dense"],
+        "correct": "Float"
+    },
+    {
+        "fact": "The unicorn is the national animal of Scotland.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["Scotland", "Animal", "Unicorn"],
+        "correct": "Scotland"
+    },
+    {
+        "fact": "Octopuses have copper-based blood, which gives it a blue color.",
+        "question": "What is the past tense of gives?",
+        "options": ["Gived", "Gaved", "Gave"],
+        "correct": "Gave"
+    },
+    {
+        "fact": "Pineapples take about two years to grow.",
+        "question": "Which word in this sentence is a noun?",
+        "options": [ "Grow", "Pineapples","Two"],
+        "correct": "Pineapples"
+    },
+    {
+        "fact": "A group of rabbits is called a fluffle.",
+        "question": "What is the collective noun in this sentence?",
+        "options": [ "Group", "Fluffle","Rabbits"],
+        "correct": "Fluffle"
+    },
+    {
+        "fact": "A jellyfish is 95% water.",
+        "question": "Which part of speech is '95%' in this sentence?",
+        "options": [ "Adjective", "Number","Noun"],
+        "correct": "Number"
+    },
+    {
+        "fact": "The human nose can detect over 1 trillion different scents.",
+        "question": "Which word in this sentence is a number?",
+        "options": [ "Different", "1 trillion","Detect"],
+        "correct": "1 trillion"
+    },
+    {
+        "fact": "There is a species of jellyfish that is immortal.",
+        "question": "What is the antonym of 'immortal'?",
+        "options": [ "Eternal", "Everlasting", "Mortal"],
+        "correct": "Mortal"
+    },
+    {
+        "fact": "A single strand of spaghetti is called a 'spaghetto'.",
+        "question": "What is the singular form of 'spaghetti'?",
+        "options": ["Spaghetto", "Spaghetti", "Spaghet"],
+        "correct": "Spaghetto"
+    },
+    {
+        "fact": "The shortest war in history lasted only 38 minutes.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": ["Shortest", "War", "Minutes"],
+        "correct": "Shortest"
+    },
+    {
+        "fact": "The Eiffel Tower can sway up to 6 inches in the wind.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [ "Tower", "Wind", "Sway"],
+        "correct": "Sway"
+    },
+    {
+        "fact": "Horses and cows sleep while standing up.",
+        "question": "Which word in this sentence is a verb?",
+        "options": [ "Standing", "Horses", "Sleep"],
+        "correct": "Sleep"
+    },
+    {
+        "fact": "A flea can jump up to 200 times its own body length.",
+        "question": "What is the verb in this sentence?",
+        "options": [ "Flea", "Jump", "Length"],
+        "correct": "Jump"
+    },
+    {
+        "fact": "Water expands when it freezes.",
+        "question": "What is the opposite of 'freezes' in this sentence?",
+        "options": [ "Thaws", "Melts", "Boils"],
+        "correct": "Melts"
+    },
+    {
+        "fact": "The honeybee is the only insect that produces food eaten by humans.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["Honeybee", "Food", "Insect"],
+        "correct": "Honeybee"
+    },
+    {
+        "fact": "Giraffes have the same number of neck vertebrae as humans.",
+        "question": "What is the singular form of 'vertebrae'?",
+        "options": [ "Vertebras", "Vertebra", "Vertebrae"],
+        "correct": "Vertebra"
+    },
+    {
+        "fact": "The human heart beats about 100,000 times a day.",
+        "question": "Which word in this sentence is a verb?",
+        "options": ["Beats", "Heart", "Times"],
+        "correct": "Beats"
+    },
+    {
+        "fact": "The speed of a sneeze can reach up to 100 mph.",
+        "question": "Which word in this sentence is a proper noun?",
+        "options": ["100", "Speed", "Reach"],
+        "correct": "Speed"
+    },
+    {
+        "fact": "Goldfish can recognize human faces.",
+        "question": "Which word in this sentence is a noun?",
+        "options": ["Goldfish", "Recognize", "Faces"],
+        "correct": "Goldfish"
+    },
+    {
+        "fact": "Some fish communicate by making noises with their swim bladders.",
+        "question": "What is the plural form of 'fish'?",
+        "options": ["Fish", "Fishes", "Fishs"],
+        "correct": "Fish"
+    },
+    {
+        "fact": "Penguins propose to their mates by giving them a pebble.",
+        "question": "What is the plural form of 'penguin'?",
+        "options": [ "Penguines", "Pengenes","Penguins"],
+        "correct": "Penguins"
+    },
+    {
+        "fact": "The moon has moonquakes just like Earth has earthquakes.",
+        "question": "What is the plural form of 'moonquake'?",
+        "options": ["Moonquakes", "Mooncuaks", "Moonsquake"],
+        "correct": "Moonquakes"
+    },
+    {
+        "fact": "Some turtles can breathe through their butts.",
+        "question": "What is the verb in this sentence?",
+        "options": [ "Turtles", "Through", "Breathe"],
+        "correct": "Breathe"
+    },
+    {
+        "fact": "A bolt of lightning is five times hotter than the surface of the sun.",
+        "question": "Which word in this sentence is an adjective?",
+        "options": [ "Lightning", "Hotter","Surface"],
+        "correct": "Hotter"
+    },
+    {
+        "fact": "A group of crows is called a 'murder'.",
+        "question": "What is the collective noun in this sentence?",
+        "options": ["Murder", "Crows", "Group"],
+        "correct": "Murder"
+    },
+    {
+        "fact": "The inventor of the lightbulb, Thomas Edison, was afraid of the dark.",
+        "question": "What is the synonym of afraid",
+        "options": ["Agitated", "Calm", "Terrified"],
+        "correct": "Terrified"
+    }
+]

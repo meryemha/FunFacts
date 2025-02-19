@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Welcome Page Container */
+.welcome-container {
+    padding: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Intro Text */
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Lottie Animation */
+.lottie-animation {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    animation: pulse 2s infinite alternate ease-in-out;
+}
+
+/* Image Animation */
+.center-image {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    animation: scrollImage 5s linear infinite alternate;
+}
+
+/* Start Button Animation */
+.start-button {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+    animation: bounce 1.5s infinite;
+}
+
+.start-button:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+}
+
+/* Hidden Content */
+.hidden {
+    display: none;
+}
+
+/* Header */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Navigation Buttons */
+nav button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+nav button:hover {
+    background-color: #4caf50;
+    transform: scale(1.1);
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    padding: 30px;
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Fact Box Animation */
+.fact {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #4caf50;
+    margin: 10px 0;
+    font-size: 18px;
+    animation: slideInLeft 0.8s ease-in-out;
+}
+
+/* Quiz Container */
+.quiz {
+    background: #eaf7ea;
+    padding: 20px;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+
+/* 🔹 Espacement entre la question et les options */
+.quiz-question {
+    margin-bottom: 20px; /* Augmente l'espacement entre la question et les réponses */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 🔹 Alignement et Espacement des Boutons */
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les boutons */
+    gap: 12px; /* Augmente l'espacement entre les boutons */
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* 🔹 Style Amélioré des Boutons */
+.quiz-options button {
+    width: 90%; /* Augmente la largeur */
+    max-width: 400px; /* Évite que les boutons soient trop grands */
+    padding: 12px;
+    font-size: 18px;
+    text-align: left; /* Aligne le texte à gauche */
+    padding-left: 20px; /* Ajoute un espace à gauche */
+    border: none;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+}
+
+/* 🔹 Effet au Survol */
+.quiz-options button:hover {
+    background-color: #45a049;
+    transform: scale(1.03);
+}
+
+/* 🔹 Animation au Clic */
+.quiz-options button:active {
+    transform: scale(0.98);
+}
+
+
+
+/* Quiz Feedback */
+.quiz-feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes scrollImage {
+    from {
+        transform: translateX(-20px);
+    }
+    to {
+        transform: translateX(20px);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
